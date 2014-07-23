@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "IMDbPro Scraper",
+	"description": "Scrapes emails from IMDbPro",
+	"version": "1.0.0",
+
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [{
+		"matches": ["https://pro-labs.imdb.com/*"],
+		"js": ["lib/jquery-1.11.1.min.js", "content_scripts/scraper.js"]
+	}]
+}
