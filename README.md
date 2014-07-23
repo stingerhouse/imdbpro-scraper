@@ -12,6 +12,3 @@ Personalized web scraper for IMDbPro
 - you should see a new icon for it in the top right of the browser
 
 #how to use
-
-#problems?
-- contact jauhar.b@gmail.com
